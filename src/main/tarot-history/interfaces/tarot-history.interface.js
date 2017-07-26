@@ -1,7 +1,7 @@
 /* @flow */
 
-import { IActiveSpread } from '../../tarot-spread/interfaces/active-spread.interface';
+import { IDrawnSpread } from '../../tarot-spread/interfaces/drawn-spread.interface';
 
-export interface IArchivedSpread extends IActiveSpread {
+export interface IArchivedSpread extends IDrawnSpread {
   +date: Date;
 }

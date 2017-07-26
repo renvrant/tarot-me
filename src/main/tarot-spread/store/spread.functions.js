@@ -1,12 +1,13 @@
 /* flow */
 
-import {IActiveSpread} from '../interfaces/active-spread.interface';
+import {IDrawnSpread} from '../interfaces/drawn-spread.interface';
 import {getSpreadConfigByType, TSpreadType} from '../types';
-import type { TSpreadCards } from '../types/spread.types';
+import type { TSpreadCardList } from '../types/spread.types';
 import {ITarotCard} from '../../tarot-card/interfaces/tarot-card.interface';
+import {IDrawnCard} from '../../tarot-card/interfaces/drawn-card.interface';
 
 
-export const getSpreadInitialState = (): IActiveSpread => ({
+export const getSpreadInitialState = (): IDrawnSpread => ({
   type: null,
   cards: new Map(),
 });
@@ -26,17 +27,24 @@ export function generateUniqueRandomNumbers(
   return uniqueRandomNumbers;
 }
 
+export function getUprightOrReversedCard(card: ITarotCard): IDrawnCard {
+  return {
+    ...card,
+    reversed: Math.floor(Math.random() * 100) >= 75,
+  }
+}
+
 export function drawCardsForSpread(
   spreadType: TSpreadType,
   deck: Array<ITarotCard>,
-): TSpreadCards {
+): TSpreadCardList {
   const cardMap = new Map();
   [ ...generateUniqueRandomNumbers(
       getSpreadConfigByType(spreadType).totalCards,
       deck.length,
     )
   ].forEach((number, i) => {
-    cardMap.set(i+1, deck[number])}
-  );
+    cardMap.set(i+1, getUprightOrReversedCard(deck[number]));
+  });
   return cardMap;
 }

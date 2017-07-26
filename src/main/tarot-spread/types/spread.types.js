@@ -1,7 +1,7 @@
 /* @flow */
 
 import { ISpread } from '../interfaces/spread.interface';
-import {ITarotCard} from '../../tarot-card/interfaces/tarot-card.interface';
+import {IDrawnCard} from '../../tarot-card/interfaces/drawn-card.interface';
 
 export const SpreadTypes: { [key: string]: ISpread } = {
   Single: {
@@ -33,7 +33,7 @@ export const SpreadTypes: { [key: string]: ISpread } = {
 
 export type TSpreadType = $Keys<typeof SpreadTypes>;
 
-export type TSpreadCards = Map<number, ITarotCard>;
+export type TSpreadCardList = Map<number, IDrawnCard>;
 
 export const SpreadTypesList: Array<ISpread> = Object.keys(SpreadTypes)
   .sort().map(i => SpreadTypes[i]);

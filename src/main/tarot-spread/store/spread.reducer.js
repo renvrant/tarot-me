@@ -2,9 +2,9 @@
 
 import { SpreadActions } from './spread.actions';
 import {getSpreadInitialState} from './spread.functions';
-import {IActiveSpread} from '../interfaces/active-spread.interface';
+import {IDrawnSpread} from '../interfaces/drawn-spread.interface';
 
-export const spreadReducer = (state: IActiveSpread = getSpreadInitialState(), action) => {
+export const spreadReducer = (state: IDrawnSpread = getSpreadInitialState(), action) => {
   switch (action.type) {
     case SpreadActions.CREATE:
       return {
