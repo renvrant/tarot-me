@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/styles.css';
-import App from './root/App/App';
+import App from './modules/root/components/App/App';
 import registerServiceWorker from './services/registerServiceWorker';
 import { Provider } from 'react-redux';
-import { store } from './store';
+import {store} from './modules/root/store/configure-store/root.store';
 
 // eslint-disable-next-line
 import { polyfills } from './polyfills';
