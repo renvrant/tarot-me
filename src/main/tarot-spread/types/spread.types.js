@@ -1,6 +1,6 @@
 /* @flow */
 
-import { ISpread } from '../interfaces/spread.interface';
+import { ISpread } from './spread.interface';
 import {IDrawnCard} from '../../tarot-card/interfaces/drawn-card.interface';
 
 export const SpreadTypes: { [key: string]: ISpread } = {

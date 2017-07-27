@@ -2,7 +2,7 @@
 
 import { SpreadActions } from './spread.actions';
 import {getSpreadInitialState} from './spread.functions';
-import {IDrawnSpread} from '../interfaces/drawn-spread.interface';
+import {IDrawnSpread} from '../types/drawn-spread.interface';
 
 export const spreadReducer = (state: IDrawnSpread = getSpreadInitialState(), action) => {
   switch (action.type) {

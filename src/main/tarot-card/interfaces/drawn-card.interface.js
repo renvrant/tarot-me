@@ -1,4 +1,4 @@
-/* flow */
+/* @flow */
 
 import { ITarotCard } from './tarot-card.interface';
 

@@ -1,5 +1,5 @@
-/* flow */
+/* @flow */
 
-import {ITarotCard} from '../../tarot-card/interfaces/tarot-card.interface';
+import type {TDeck} from '../types/deck.type';
 
-export const getDeckInitialState = (): Array<ITarotCard> => [];
+export const getDeckInitialState = (): TDeck => [];

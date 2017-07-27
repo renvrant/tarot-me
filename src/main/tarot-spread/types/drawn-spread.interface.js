@@ -1,6 +1,6 @@
 /* @flow */
 
-import type { TSpreadType, TSpreadCardList } from '../types/spread.types';
+import type { TSpreadType, TSpreadCardList } from './spread.types';
 
 export interface IDrawnSpread {
   +type: TSpreadType;

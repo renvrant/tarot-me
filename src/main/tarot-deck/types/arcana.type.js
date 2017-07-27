@@ -1,6 +1,6 @@
 /* flow */
 
-import {IArcana} from '../interfaces/arcana.interface';
+import {IArcana} from './arcana.interface';
 
 export const ArcanaTypes: { [key: string]: IArcana } = {
   major: {

@@ -1,4 +1,4 @@
-/* flow */
+/* @flow */
 
 import { IAppState } from './app-state.interface';
 import { deckReducer } from '../main/tarot-deck/store/deck.reducer';

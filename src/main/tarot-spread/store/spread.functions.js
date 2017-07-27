@@ -1,6 +1,6 @@
 /* flow */
 
-import {IDrawnSpread} from '../interfaces/drawn-spread.interface';
+import {IDrawnSpread} from '../types/drawn-spread.interface';
 import {getSpreadConfigByType, TSpreadType} from '../types';
 import type { TSpreadCardList } from '../types/spread.types';
 import {ITarotCard} from '../../tarot-card/interfaces/tarot-card.interface';

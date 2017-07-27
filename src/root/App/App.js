@@ -1,10 +1,12 @@
+/* @flow */
+
 import React, { Component } from 'react';
-import AppRouter from '../AppRouter/AppRouter';
 import AppNavigation from '../AppNavigation/AppNavigation';
 import { connect } from 'react-redux';
 import { DeckActions } from '../../main/tarot-deck/store/deck.actions';
 import { Router } from 'react-router-dom';
 import {routeHistory} from '../../store/configure-store';
+import {routeConfig} from '../app.routes';
 
 class App extends Component {
   componentWillMount() {
@@ -14,9 +16,9 @@ class App extends Component {
   render() {
     return (
       <Router history={routeHistory}>
-        <main className="App">
+        <main>
           <AppNavigation/>
-          <AppRouter/>
+          { routeConfig }
         </main>
       </Router>
     );

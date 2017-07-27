@@ -1,4 +1,4 @@
-/* flow */
+/* @flow */
 
 import { compose, createStore, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
@@ -9,16 +9,17 @@ import persistState from 'redux-localstorage';
 import combineReducers from 'redux/es/combineReducers';
 import {routerMiddleware} from 'react-router-redux';
 import {createBrowserHistory} from 'history';
+import {IAppState} from './app-state.interface';
 
 export const routeHistory = createBrowserHistory();
 
-export function deimmutify(store) {
+export function deimmutify(store: IAppState) {
   return {
     spreadHistory: store.spreadHistory,
   };
 }
 
-export function reimmutify(plain) {
+export function reimmutify(plain: IAppState) {
   return plain ? {
     spreadHistory: plain.spreadHistory,
   } : {};

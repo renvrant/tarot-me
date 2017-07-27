@@ -1,6 +1,6 @@
 /* @flow */
 
-import type { TSpreadType } from '../types/spread.types';
+import type { TSpreadType } from './spread.types';
 
 export interface ISpread {
   +type: TSpreadType;

@@ -1,6 +1,6 @@
-/* flow */
+/* @flow */
 
-import type { TArcanaType } from '../types/arcana.type';
+import type { TArcanaType } from './arcana.type';
 
 export interface IArcana {
   +title: string;

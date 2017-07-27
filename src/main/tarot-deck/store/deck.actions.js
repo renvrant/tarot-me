@@ -1,4 +1,4 @@
-/* flow */
+/* @flow */
 
 import {createAction, IPayloadAction} from '../../../store/create-action.interface';
 

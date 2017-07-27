@@ -1,7 +1,7 @@
 /* flow */
 
 import { ArcanaTypesList, TArcanaType } from './arcana.type'
-import { IArcana } from '../interfaces/arcana.interface';
+import { IArcana } from './arcana.interface';
 
 export function getArcanaByType(type: TArcanaType): ?IArcana {
   return ArcanaTypesList.find(arcana => arcana.type === type);

@@ -1,10 +1,14 @@
-/* flow */
+/* @flow */
 import { DeckActions } from './deck.actions';
-import { ITarotCard } from '../../tarot-card/interfaces/tarot-card.interface';
 import { getDeckInitialState } from './deck.functions';
 import { getTarotDeck } from '../../../data/deck/index';
+import {IPayloadAction} from '../../../store/create-action.interface';
+import type {TDeck} from '../types/deck.type';
 
-export const deckReducer = (state: Array<ITarotCard> = getDeckInitialState(), action) => {
+export const deckReducer = (
+  state: TDeck = getDeckInitialState(),
+  action: IPayloadAction
+): TDeck => {
   switch (action.type) {
     case DeckActions.RETRIEVE:
       return getTarotDeck();

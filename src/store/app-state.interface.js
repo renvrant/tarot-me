@@ -1,11 +1,11 @@
 /* @flow */
 
-import { ITarotCard } from '../main/tarot-card/interfaces/tarot-card.interface';
-import { IDrawnSpread } from '../main/tarot-spread/interfaces/drawn-spread.interface';
-import { IArchivedSpread } from '../main/tarot-history/interfaces/tarot-history.interface';
+import { IDrawnSpread } from '../main/tarot-spread/types/drawn-spread.interface';
+import { IArchivedSpread } from '../main/tarot-history/types/tarot-history.interface';
+import type {TDeck} from '../main/tarot-deck/types/deck.type';
 
 export interface IAppState {
-  +deck: Array<ITarotCard>;
+  +deck: TDeck;
   +spread: IDrawnSpread;
   +spreadHistory?: Array<IArchivedSpread>;
 }
