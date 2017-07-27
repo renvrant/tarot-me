@@ -39,6 +39,3 @@ export type TArcanaType = $Keys<typeof ArcanaTypes>;
 
 export const ArcanaTypesList: Array<IArcana> = Object.keys(ArcanaTypes).map(i => ArcanaTypes[i]);
 
-export function getArcanaByType(type: TArcanaType): ?IArcana {
-  return ArcanaTypesList.find(arcana => arcana.type === type);
-}

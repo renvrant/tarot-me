@@ -7,6 +7,10 @@ import { rootEpics } from './root.epics';
 import { initialState, rootReducer } from './root.reducer';
 import persistState from 'redux-localstorage';
 import combineReducers from 'redux/es/combineReducers';
+import {routerMiddleware} from 'react-router-redux';
+import {createBrowserHistory} from 'history';
+
+export const routeHistory = createBrowserHistory();
 
 export function deimmutify(store) {
   return {
@@ -38,6 +42,7 @@ const middleware = [
     collapsed: true,
   }),
   createEpicMiddleware(rootEpics),
+  routerMiddleware(routeHistory),
 ];
 
 const composedEnhancers = compose(

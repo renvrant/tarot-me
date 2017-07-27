@@ -5,7 +5,7 @@ import { ITarotCard } from '../../main/tarot-card/interfaces/tarot-card.interfac
 export const MAJOR_ARCANA: Array<ITarotCard> = [
   {
     id: 0,
-    rank: 0,
+    rank: '0',
     numeral: '0',
     name: 'The Fool',
     arcana: 'major',
@@ -13,7 +13,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 1,
-    rank: 1,
+    rank: '1',
     numeral: 'I',
     name: 'The Magician',
     arcana: 'major',
@@ -21,7 +21,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 2,
-    rank: 2,
+    rank: '2',
     numeral: 'II',
     name: 'The High Priestess',
     arcana: 'major',
@@ -29,7 +29,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 3,
-    rank: 3,
+    rank: '3',
     numeral: 'III',
     name: 'The Empress',
     arcana: 'major',
@@ -37,7 +37,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 4,
-    rank: 4,
+    rank: '4',
     numeral: 'IV',
     name: 'The Emperor',
     arcana: 'major',
@@ -45,7 +45,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 5,
-    rank: 5,
+    rank: '5',
     numeral: 'V',
     name: 'The Hierophant',
     arcana: 'major',
@@ -53,7 +53,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 6,
-    rank: 6,
+    rank: '6',
     numeral: 'VI',
     name: 'The Lovers',
     arcana: 'major',
@@ -61,7 +61,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 7,
-    rank: 7,
+    rank: '7',
     numeral: 'VII',
     name: 'The Chariot',
     arcana: 'major',
@@ -69,7 +69,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 8,
-    rank: 8,
+    rank: '8',
     numeral: 'VIII',
     name: 'Strength',
     arcana: 'major',
@@ -77,7 +77,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 9,
-    rank: 9,
+    rank: '9',
     numeral: 'IX',
     name: 'The Hermit',
     arcana: 'major',
@@ -85,7 +85,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 10,
-    rank: 10,
+    rank: '10',
     numeral: 'X',
     name: 'The Wheel of Fortune',
     arcana: 'major',
@@ -93,7 +93,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 11,
-    rank: 11,
+    rank: '11',
     numeral: 'XI',
     name: 'Justice',
     arcana: 'major',
@@ -101,7 +101,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 12,
-    rank: 12,
+    rank: '12',
     numeral: 'XII',
     name: 'The Hanged Man',
     arcana: 'major',
@@ -109,7 +109,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 13,
-    rank: 13,
+    rank: '13',
     numeral: 'XIII',
     name: 'Death',
     arcana: 'major',
@@ -117,7 +117,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 14,
-    rank: 14,
+    rank: '14',
     numeral: 'XIV',
     name: 'Temperance',
     arcana: 'major',
@@ -125,7 +125,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 15,
-    rank: 15,
+    rank: '15',
     numeral: 'XV',
     name: 'The Devil',
     arcana: 'major',
@@ -133,7 +133,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 16,
-    rank: 16,
+    rank: '16',
     numeral: 'XVI',
     name: 'The Tower',
     arcana: 'major',
@@ -141,7 +141,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 17,
-    rank: 17,
+    rank: '17',
     numeral: 'XVII',
     name: 'The Star',
     arcana: 'major',
@@ -149,7 +149,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 18,
-    rank: 18,
+    rank: '18',
     numeral: 'XVIII',
     name: 'The Moon',
     arcana: 'major',
@@ -157,7 +157,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 19,
-    rank: 19,
+    rank: '19',
     numeral: 'XIX',
     name: 'The Sun',
     arcana: 'major',
@@ -165,7 +165,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 20,
-    rank: 20,
+    rank: '20',
     numeral: 'XX',
     name: 'Judgement',
     arcana: 'major',
@@ -173,7 +173,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
   },
   {
     id: 21,
-    rank: 21,
+    rank:'21',
     numeral: 'XXI',
     name: 'The World',
     arcana: 'major',

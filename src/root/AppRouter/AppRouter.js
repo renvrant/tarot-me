@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import { routes } from '../app.routes'
 import HomePage from '../../main/components/Home/HomePage';
 import DeckPage from '../../main/tarot-deck/components/DeckPage/DeckPage';
-import CardPage from '../../main/tarot-card/components/CardPage/CardPage';
+import CardPage from '../../main/tarot-card/components/CardPageContainer/CardPageContainer';
 
 const AppRouter = () => (
   <Switch>

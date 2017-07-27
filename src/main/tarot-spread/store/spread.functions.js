@@ -12,7 +12,6 @@ export const getSpreadInitialState = (): IDrawnSpread => ({
   cards: new Map(),
 });
 
-
 export function generateUniqueRandomNumbers(
   totalNumbers: number,
   rangeMax: number,
@@ -27,10 +26,11 @@ export function generateUniqueRandomNumbers(
   return uniqueRandomNumbers;
 }
 
-export function getUprightOrReversedCard(card: ITarotCard): IDrawnCard {
+export function getDrawnCard(card: ITarotCard): IDrawnCard {
   return {
     ...card,
     reversed: Math.floor(Math.random() * 100) >= 75,
+    flipped: false,
   }
 }
 
@@ -44,7 +44,7 @@ export function drawCardsForSpread(
       deck.length,
     )
   ].forEach((number, i) => {
-    cardMap.set(i+1, getUprightOrReversedCard(deck[number]));
+    cardMap.set(i+1, getDrawnCard(deck[number]));
   });
   return cardMap;
 }

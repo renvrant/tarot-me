@@ -2813,7 +2813,7 @@ he@1.1.x:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-history@^4.5.1, history@^4.6.0:
+history@^4.5.1, history@^4.6.0, history@^4.6.3:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/history/-/history-4.6.3.tgz#6d723a8712c581d6bef37e8c26f4aedc6eb86967"
   dependencies:
@@ -4983,6 +4983,10 @@ react-router-dom@^4.1.2:
     prop-types "^15.5.4"
     react-router "^4.1.1"
 
+react-router-redux@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/react-router-redux/-/react-router-redux-4.0.8.tgz#227403596b5151e182377dab835b5d45f0f8054e"
+
 react-router@^4.1.1:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.1.2.tgz#7ae027341abc42eb08ad9f7a8cac08d0563672ce"
@@ -5307,6 +5311,10 @@ require-uncached@^1.0.2:
 requires-port@1.0.x, requires-port@1.x.x:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+
+reselect@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
 
 resolve-from@^1.0.0:
   version "1.0.1"

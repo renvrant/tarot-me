@@ -5,7 +5,7 @@ import { ITarotCard } from '../main/tarot-card/interfaces/tarot-card.interface';
 export const routes: { [key: string]: string } = {
   home: '/',
   deckPage: '/cards',
-  cardPage: '/cards/:arcana/:id',
+  cardPage: '/cards/:arcana/:rank',
   spreadPage: '/spreads',
   activeSpreadPageRoot: '/spreads/',
 };
