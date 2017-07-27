@@ -3,17 +3,13 @@
 import React from 'react';
 import { ITarotCard } from '../../types/tarot-card.interface';
 import { connect } from 'react-redux';
-import { getArcanaNameByType } from '../../../tarot-deck/types/arcana-types.functions';
 import { cardPageSelector } from '../../store/card-page.selector';
 import {IAppState} from '../../../root/types/app-state.interface';
+import CardPage from '../CardPage/CardPage';
 
 const CardPageContainer = ({ card }: { card: ITarotCard }) => {
   return (
-    <article>
-      <h2>{card.numeral}. {card.name}</h2>
-      <h3>{getArcanaNameByType(card.arcana)}</h3>
-      <p>{card.description}</p>
-    </article>
+    <CardPage card={card} />
   );
 };
 

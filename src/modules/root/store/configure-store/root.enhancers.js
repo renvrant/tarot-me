@@ -8,13 +8,13 @@ import {IAppState} from '../../types/app-state.interface';
 
 function deimmutify(store: IAppState) {
   return {
-    spreadHistory: store.spreadHistory,
+    archive: store.archive,
   };
 }
 
 function reimmutify(plain: IAppState) {
   return plain ? {
-    spreadHistory: plain.spreadHistory,
+    archive: plain.archive,
   } : {};
 }
 

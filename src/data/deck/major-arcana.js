@@ -89,7 +89,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'X',
     name: 'The Wheel of Fortune',
     arcana: 'major',
-    description: "The wheels of fate connect all as they turn.",
+    description: "The wheels of fate connect us all and turn without warning.",
   },
   {
     id: 11,

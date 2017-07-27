@@ -4,7 +4,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { ITarotCard } from '../tarot-card/types/tarot-card.interface';
 import HomePage from '../home/components/HomePage/HomePage';
-import DeckPage from '../tarot-deck/components/DeckPage/DeckPage';
+import DeckPage from '../tarot-deck/components/DeckPageContainer/DeckPageContainer';
 import CardPage from '../tarot-card/components/CardPageContainer/CardPageContainer';
 
 

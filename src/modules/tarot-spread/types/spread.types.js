@@ -5,11 +5,11 @@ import {IDrawnCard} from '../../tarot-card/types/drawn-card.interface';
 
 export const SpreadTypes: { [key: string]: ISpread } = {
   Single: {
-    type: 'Single',
-    title: 'Single Card',
+    type: 'Daily',
+    title: 'Daily Card',
     totalCards: 1,
     cardPositions: new Map()
-      .set(1, 'Your Card'),
+      .set(1, 'Today\'s Card'),
   },
   PastPresentFuture: {
     type: 'PastPresentFuture',
