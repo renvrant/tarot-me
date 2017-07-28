@@ -4,7 +4,7 @@ import { ISpread } from './spread.interface';
 import {IDrawnCard} from '../../tarot-card/types/drawn-card.interface';
 
 export const SpreadTypes: { [key: string]: ISpread } = {
-  Single: {
+  Daily: {
     type: 'Daily',
     title: 'Daily Card',
     totalCards: 1,

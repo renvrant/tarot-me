@@ -8,3 +8,4 @@ export interface ISpread {
   +totalCards: number;
   +cardPositions: Map<number, string>;
 }
+// Add spreadLayout property

@@ -28,5 +28,4 @@ const mapDispatchToProps = {
   retrieve: DeckActions.retrieve(),
 };
 
-
 export default connect((state, props) => props, mapDispatchToProps)(App);
