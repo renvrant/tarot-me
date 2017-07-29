@@ -4,7 +4,7 @@ import TarotCard from '../../../../tarot-card/components/TarotCard/TarotCard';
 import { ISpreadCard } from '../../../types/spread.interfaces';
 
 const DrawnTarotCard = ({ drawnCard }: { drawnCard: ISpreadCard }) =>
-  <div>
+  <div className="drawn-card">
     <h3>
       {drawnCard.position.title}
     </h3>
