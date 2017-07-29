@@ -33,4 +33,4 @@ const mapDispatchToProps = {
   retrieve: () => AppDataActions.retrieve(),
 };
 
-export default connect((state, props) => props, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

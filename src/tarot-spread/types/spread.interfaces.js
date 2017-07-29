@@ -3,6 +3,12 @@
 import type {TSpreadType} from './spread.types';
 import {ITarotCard} from '../../tarot-card/types/tarot-card.interface';
 
+
+export interface ISpreadPosition {
+  +title: string;
+  +index: number;
+}
+
 export interface ISpreadMetadata {
   +type: TSpreadType;
   +title: string;
@@ -11,15 +17,10 @@ export interface ISpreadMetadata {
   +positions: Array<ISpreadPosition>; // This could be a map...
 }
 
-export interface ISpread {
-  +type: TSpreadType;
-  +title: string;
-  +cards: Array<ISpreadCard>;
-}
 
-export interface ISpreadPosition {
-  +title: string;
-  +index: number;
+export interface ICardOrientation {
+  +reversed: boolean;
+  +flipped: boolean;
 }
 
 export interface ISpreadCard {
@@ -28,7 +29,10 @@ export interface ISpreadCard {
   +orientation: ICardOrientation;
 }
 
-export interface ICardOrientation {
-  +reversed: boolean;
-  +flipped: boolean;
+export interface ISpread {
+  +type: TSpreadType;
+  +title: string;
+  +cards: Array<ISpreadCard>;
 }
+
+

@@ -1,7 +1,6 @@
 /* flow */
 
 import { IPayloadAction } from '../../root/types/create-action.interface';
-import { TSpreadType } from '../types/spread.types';
 import { ITarotCard } from '../../tarot-card/types/tarot-card.interface';
 import {createAction} from '../../root/store/store.functions';
 import {ISpreadMetadata} from '../types/spread.interfaces';
