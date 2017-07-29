@@ -8,7 +8,6 @@ const AppNavigation = () => (
   <nav className="app-nav">
     <Link to={routes.home}>Home</Link>
     <Link to={routes.deckPage}>Deck</Link>
-    <Link to={routes.spreadPage}>Spreads</Link>
   </nav>
 );
 

@@ -13,6 +13,7 @@ export interface ISpreadMetadata {
 
 export interface ISpread {
   +type: TSpreadType;
+  +title: string;
   +cards: Array<ISpreadCard>;
 }
 

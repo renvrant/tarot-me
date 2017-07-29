@@ -5,8 +5,10 @@ import {ICardOrientation, ISpread, ISpreadCard, ISpreadMetadata} from '../types/
 
 export const getSpreadInitialState = (): ISpread => ({
   type: null,
+  title: '',
   cards: [],
 });
+
 
 export function generateUniqueRandomNumbers(
   totalNumbers: number,

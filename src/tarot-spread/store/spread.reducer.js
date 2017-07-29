@@ -9,7 +9,8 @@ export const spreadReducer = (state: ISpread = getSpreadInitialState(), action) 
     case SpreadActions.CREATE:
       return {
         ...state,
-        type: action.payload.spreadType,
+        type: action.payload.spreadMetadata.type,
+        title: action.payload.spreadMetadata.title,
       };
     case SpreadActions.DRAW:
       return {

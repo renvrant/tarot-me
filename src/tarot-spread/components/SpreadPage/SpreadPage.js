@@ -1,18 +1,14 @@
 /* @flow */
 import React from 'react';
-import SpreadLayout from '../SpreadLayout/SpreadLayout';
-import {ISpread} from '../../types/spread.interfaces';
+import DrawnTarotCard from '../DrawnTarotCard/DrawnTarotCard';
+import {ISpread, ISpreadCard} from '../../types/spread.interfaces';
 
-const SpreadPage = ({ createSpread, currentSpread }: { createSpread: any, currentSpread: ISpread}) => (
+const SpreadPage = ({ spread }: { spread: ISpread}) => (
   <article>
-    <h2>Spreads</h2>
-    {/*{SpreadTypesList.map(spread => (*/}
-    {/*<button onClick={() => createSpread(spread.type)} key={spread.type}>*/}
-    {/*New {spread.title} Spread*/}
-    {/*</button>*/}
-    {/*))}*/}
-
-    {/*<SpreadLayout spread={currentSpread} />*/}
+    <h2>{spread.title}</h2>
+    { spread.cards.map((drawnCard: ISpreadCard) => (
+      <DrawnTarotCard drawnCard={drawnCard} key={drawnCard.position.index} />
+    )) }
   </article>
 );
 
