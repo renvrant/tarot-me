@@ -9,10 +9,19 @@ import {
 } from '../types/spread.interfaces';
 
 export const getSpreadInitialState = (): ISpread => ({
-  type: null,
-  title: '',
+  spreadMetadata: getEmptySpreadMetadata(),
   cards: []
 });
+
+export function getEmptySpreadMetadata(): ISpreadMetadata {
+  return {
+    title: '',
+    type: null,
+    totalCards: 0,
+    layout: null,
+    positions: []
+  };
+}
 
 export function generateUniqueRandomNumbers(
   totalNumbers: number,

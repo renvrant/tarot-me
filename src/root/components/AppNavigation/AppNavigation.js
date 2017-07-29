@@ -1,4 +1,4 @@
-/* flow */
+/* @flow */
 import React from 'react';
 import { routes } from '../../app.routes';
 import { Link } from 'react-router-dom';

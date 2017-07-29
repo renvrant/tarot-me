@@ -1,16 +1,14 @@
 /* @flow */
 import React from 'react';
-import DrawnTarotCard from '../DrawnTarotCard/DrawnTarotCard';
-import { ISpread, ISpreadCard } from '../../../types/spread.interfaces';
+import { ISpread } from '../../../types/spread.interfaces';
+import { SpreadLayoutStrategy } from '../SpreadLayoutStrategy/SpreadLayoutStrategy';
 
 const SpreadPage = ({ spread }: { spread: ISpread }) =>
   <article>
     <h2>
-      {spread.title}
+      {spread.spreadMetadata.title}
     </h2>
-    {spread.cards.map((drawnCard: ISpreadCard) =>
-      <DrawnTarotCard drawnCard={drawnCard} key={drawnCard.position.index} />
-    )}
+    <SpreadLayoutStrategy spread={spread} />
   </article>;
 
 export default SpreadPage;

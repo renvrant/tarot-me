@@ -1,14 +1,18 @@
 /* @flow */
 
 import { ISpreadMetadata } from '../../tarot-spread/types/spread.interfaces';
+import {
+  SpreadTypes,
+  SpreadLayouts
+} from '../../tarot-spread/types/spread.types';
 
 export const SPREADS: Array<ISpreadMetadata> = [
   {
-    type: 'Daily',
+    type: SpreadTypes.daily,
     title: 'Daily Card',
     description: 'For reflection on your day',
     totalCards: 1,
-    layout: null,
+    layout: SpreadLayouts.line,
     positions: [
       {
         title: 'Your Daily Card',
@@ -17,11 +21,11 @@ export const SPREADS: Array<ISpreadMetadata> = [
     ]
   },
   {
-    type: 'PastPresentFuture',
+    type: SpreadTypes.pastPresentFuture,
     title: 'Past, Present, Future',
     description: 'For evaluating a situation',
     totalCards: 3,
-    layout: null,
+    layout: SpreadLayouts.line,
     positions: [
       {
         title: 'Past',
@@ -38,11 +42,11 @@ export const SPREADS: Array<ISpreadMetadata> = [
     ]
   },
   {
-    type: 'ThinkFeelDo',
+    type: SpreadTypes.thinkFeelDo,
     title: 'Think, Feel, Do',
     description: 'For evaluating a situation',
     totalCards: 3,
-    layout: null,
+    layout: SpreadLayouts.line,
     positions: [
       {
         title: 'What I Think',

@@ -5,7 +5,6 @@ import { Store } from 'redux';
 import { IAppState, IPayloadAction } from '../../root/types';
 import { drawCardsForSpread } from './spread.functions';
 import 'rxjs/add/operator/map';
-import { ISpreadMetadata } from '../types/spread.interfaces';
 
 export const createSpreadEpic = (
   action$: ActionsObservable<IPayloadAction>,
@@ -16,12 +15,7 @@ export const createSpreadEpic = (
     .map(() =>
       SpreadActions.draw(
         drawCardsForSpread(
-          store
-            .getState()
-            .appData.spreadMetadata.find(
-              (spread: ISpreadMetadata) =>
-                spread.type === store.getState().spread.type
-            ),
+          store.getState().spread.spreadMetadata,
           store.getState().appData.deck
         )
       )
