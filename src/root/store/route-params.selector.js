@@ -1,5 +1,6 @@
 /* @flow */
 
-import {IAppState} from '../types/app-state.interface';
+import { IAppState } from '../types/app-state.interface';
 
-export const routeParamsSelector = (state: IAppState, match: { params: any }) => match.params;
+export const routeParamsSelector = (state: IAppState, match: { params: any }) =>
+  match.params;

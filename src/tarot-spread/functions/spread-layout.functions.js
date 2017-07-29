@@ -1,7 +1,7 @@
 /* @flow */
 
-import type {TSpreadType} from '../types/spread.types';
-import {getTotalCardsBySpreadType} from '../types/spread-types.functions';
+import type { TSpreadType } from '../types/spread.types';
+import { getTotalCardsBySpreadType } from '../types/spread-types.functions';
 
 export const getSpreadLayoutComponent = (spreadType: TSpreadType) => {
   switch (getTotalCardsBySpreadType(spreadType)) {

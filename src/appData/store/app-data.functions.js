@@ -1,10 +1,10 @@
 /* @flow */
 
-import {IAppData} from './app-data.interfaces';
+import { IAppData } from './app-data.interfaces';
 
 export const getAppDataInitialState = (): IAppData => ({
   isLoading: false,
   deck: [],
   arcana: [],
-  spreadMetadata: [],
+  spreadMetadata: []
 });

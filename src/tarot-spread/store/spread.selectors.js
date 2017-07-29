@@ -1,9 +1,9 @@
 /* @flow */
 
-import {appDataSelector} from '../../appData/store/app-data.selectors';
-import {IAppData} from '../../appData/store/app-data.interfaces';
-import {createSelector} from 'reselect';
-import {IAppState} from '../../root/types/app-state.interface';
+import { appDataSelector } from '../../appData/store/app-data.selectors';
+import { IAppData } from '../../appData/store/app-data.interfaces';
+import { createSelector } from 'reselect';
+import { IAppState } from '../../root/types/app-state.interface';
 
 export const spreadMetadataSelector = createSelector(
   [appDataSelector],

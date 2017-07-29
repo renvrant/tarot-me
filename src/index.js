@@ -4,7 +4,7 @@ import './assets/styles/styles.css';
 import App from './root/components/App/App';
 import registerServiceWorker from './root/services/registerServiceWorker';
 import { Provider } from 'react-redux';
-import {store} from './root/store/configure-store/root.store';
+import { store } from './root/store/configure-store/root.store';
 
 // eslint-disable-next-line
 import { polyfills } from './polyfills';
@@ -17,7 +17,3 @@ ReactDOM.render(
 );
 
 registerServiceWorker();
-
-
-
-

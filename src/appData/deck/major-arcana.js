@@ -9,7 +9,8 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: '0',
     name: 'The Fool',
     arcana: 'major',
-    description: "The fool embarks on the journey thinking only of it's potential.",
+    description:
+      "The fool embarks on the journey thinking only of it's potential."
   },
   {
     id: 1,
@@ -17,7 +18,8 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'I',
     name: 'The Magician',
     arcana: 'major',
-    description: "The magician bends the world to his will, through power or trickery.",
+    description:
+      'The magician bends the world to his will, through power or trickery.'
   },
   {
     id: 2,
@@ -25,7 +27,8 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'II',
     name: 'The High Priestess',
     arcana: 'major',
-    description: "The priestess channels cosmic power through her own intuition.",
+    description:
+      'The priestess channels cosmic power through her own intuition.'
   },
   {
     id: 3,
@@ -33,7 +36,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'III',
     name: 'The Empress',
     arcana: 'major',
-    description: "The empress nurtures life, abundance and all creation.",
+    description: 'The empress nurtures life, abundance and all creation.'
   },
   {
     id: 4,
@@ -41,7 +44,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'IV',
     name: 'The Emperor',
     arcana: 'major',
-    description: "The emperor governs law, order and human invention.",
+    description: 'The emperor governs law, order and human invention.'
   },
   {
     id: 5,
@@ -49,7 +52,8 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'V',
     name: 'The Hierophant',
     arcana: 'major',
-    description: "The hierophant leads with the conservative wisdom of tradition.",
+    description:
+      'The hierophant leads with the conservative wisdom of tradition.'
   },
   {
     id: 6,
@@ -57,7 +61,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'VI',
     name: 'The Lovers',
     arcana: 'major',
-    description: "The lovers are united, but must decide what they believe in.",
+    description: 'The lovers are united, but must decide what they believe in.'
   },
   {
     id: 7,
@@ -65,7 +69,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'VII',
     name: 'The Chariot',
     arcana: 'major',
-    description: "The chariot directs its focus and rides to victory.",
+    description: 'The chariot directs its focus and rides to victory.'
   },
   {
     id: 8,
@@ -73,7 +77,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'VIII',
     name: 'Strength',
     arcana: 'major',
-    description: "Strength is a matter of determination and courage.",
+    description: 'Strength is a matter of determination and courage.'
   },
   {
     id: 9,
@@ -81,7 +85,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'IX',
     name: 'The Hermit',
     arcana: 'major',
-    description: "The hermit searches within for a guiding light.",
+    description: 'The hermit searches within for a guiding light.'
   },
   {
     id: 10,
@@ -89,7 +93,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'X',
     name: 'The Wheel of Fortune',
     arcana: 'major',
-    description: "The wheels of fate connect us all and turn without warning.",
+    description: 'The wheels of fate connect us all and turn without warning.'
   },
   {
     id: 11,
@@ -97,7 +101,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XI',
     name: 'Justice',
     arcana: 'major',
-    description: "Justice weighs a consequence for every action.",
+    description: 'Justice weighs a consequence for every action.'
   },
   {
     id: 12,
@@ -105,7 +109,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XII',
     name: 'The Hanged Man',
     arcana: 'major',
-    description: "The hanged man suspends himself, letting go to move forward.",
+    description: 'The hanged man suspends himself, letting go to move forward.'
   },
   {
     id: 13,
@@ -113,7 +117,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XIII',
     name: 'Death',
     arcana: 'major',
-    description: "Death marks an end and a beginning.",
+    description: 'Death marks an end and a beginning.'
   },
   {
     id: 14,
@@ -121,7 +125,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XIV',
     name: 'Temperance',
     arcana: 'major',
-    description: "Temperance blends disparate parts to make a stronger whole.",
+    description: 'Temperance blends disparate parts to make a stronger whole.'
   },
   {
     id: 15,
@@ -129,7 +133,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XV',
     name: 'The Devil',
     arcana: 'major',
-    description: "The devil holds you prisoner only to your own desires.",
+    description: 'The devil holds you prisoner only to your own desires.'
   },
   {
     id: 16,
@@ -137,7 +141,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XVI',
     name: 'The Tower',
     arcana: 'major',
-    description: "The tower's sudden collapse lays bare its foundations.",
+    description: "The tower's sudden collapse lays bare its foundations."
   },
   {
     id: 17,
@@ -145,7 +149,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XVII',
     name: 'The Star',
     arcana: 'major',
-    description: "The star illuminates the night with hope and serenity.",
+    description: 'The star illuminates the night with hope and serenity.'
   },
   {
     id: 18,
@@ -153,7 +157,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XVIII',
     name: 'The Moon',
     arcana: 'major',
-    description: "The moon turns the world to nightmares and dreamscapes.",
+    description: 'The moon turns the world to nightmares and dreamscapes.'
   },
   {
     id: 19,
@@ -161,7 +165,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XIX',
     name: 'The Sun',
     arcana: 'major',
-    description: "The sun rises with the joy and radiance of success.",
+    description: 'The sun rises with the joy and radiance of success.'
   },
   {
     id: 20,
@@ -169,14 +173,14 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XX',
     name: 'Judgement',
     arcana: 'major',
-    description: "Judgement calls to the spirit to be measured and reborn.",
+    description: 'Judgement calls to the spirit to be measured and reborn.'
   },
   {
     id: 21,
-    rank:'21',
+    rank: '21',
     numeral: 'XXI',
     name: 'The World',
     arcana: 'major',
-    description: "The world completes the cycle and brings all things together.",
-  },
+    description: 'The world completes the cycle and brings all things together.'
+  }
 ];

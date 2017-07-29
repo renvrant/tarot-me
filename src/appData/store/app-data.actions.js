@@ -1,10 +1,10 @@
 /* @flow */
 
-import { IPayloadAction} from '../../root/types/index';
+import { IPayloadAction } from '../../root/types/index';
 import { createAction } from '../../root/store/index';
-import type {TDeck} from '../../tarot-deck/types/deck.type';
-import {IArcana} from '../../tarot-deck/types/arcana.interface';
-import {ISpreadMetadata} from '../../tarot-spread/types/spread.interfaces';
+import type { TDeck } from '../../tarot-deck/types/deck.type';
+import { IArcana } from '../../tarot-deck/types/arcana.interface';
+import { ISpreadMetadata } from '../../tarot-spread/types/spread.interfaces';
 
 export class AppDataActions {
   static RETRIEVE_DECK = 'APP_DATA_RETRIEVE_DECK';
@@ -25,7 +25,9 @@ export class AppDataActions {
     return createAction(AppDataActions.RETRIEVE_ARCANA, { arcana });
   }
 
-  static retrieveSpreads(spreadMetadata: Array<ISpreadMetadata>): IPayloadAction {
+  static retrieveSpreads(
+    spreadMetadata: Array<ISpreadMetadata>
+  ): IPayloadAction {
     return createAction(AppDataActions.RETRIEVE_SPREADS, { spreadMetadata });
   }
 

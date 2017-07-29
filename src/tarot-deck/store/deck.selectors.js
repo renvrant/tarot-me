@@ -1,9 +1,9 @@
 /* @flow */
 
-import type {TDeck} from '../types/deck.type';
-import {IAppData} from '../../appData/store/app-data.interfaces';
-import {createSelector} from 'reselect';
-import {appDataSelector} from '../../appData/store/app-data.selectors';
+import type { TDeck } from '../types/deck.type';
+import { IAppData } from '../../appData/store/app-data.interfaces';
+import { createSelector } from 'reselect';
+import { appDataSelector } from '../../appData/store/app-data.selectors';
 
 export const deckSelector = createSelector(
   [appDataSelector],

@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "prettier": "^1.5.3"
   },
   "dependencies": {
     "flow-bin": "^0.51.0",
@@ -24,6 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "flow": "flow"
+    "flow": "flow",
+    "prettier": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx}'"
   }
 }

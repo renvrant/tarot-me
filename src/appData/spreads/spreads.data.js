@@ -1,6 +1,6 @@
 /* @flow */
 
-import {ISpreadMetadata} from '../../tarot-spread/types/spread.interfaces';
+import { ISpreadMetadata } from '../../tarot-spread/types/spread.interfaces';
 
 export const SPREADS: Array<ISpreadMetadata> = [
   {
@@ -12,9 +12,9 @@ export const SPREADS: Array<ISpreadMetadata> = [
     positions: [
       {
         title: 'Your Daily Card',
-        index: 1,
-      },
-    ],
+        index: 1
+      }
+    ]
   },
   {
     type: 'PastPresentFuture',
@@ -25,17 +25,17 @@ export const SPREADS: Array<ISpreadMetadata> = [
     positions: [
       {
         title: 'Past',
-        index: 1,
+        index: 1
       },
       {
         title: 'Present',
-        index: 2,
+        index: 2
       },
       {
         title: 'Future',
-        index: 3,
-      },
-    ],
+        index: 3
+      }
+    ]
   },
   {
     type: 'ThinkFeelDo',
@@ -46,16 +46,16 @@ export const SPREADS: Array<ISpreadMetadata> = [
     positions: [
       {
         title: 'What I Think',
-        index: 1,
+        index: 1
       },
       {
         title: 'How I Feel',
-        index: 2,
+        index: 2
       },
       {
         title: 'What to Do',
-        index: 3,
-      },
-    ],
-  },
+        index: 3
+      }
+    ]
+  }
 ];
