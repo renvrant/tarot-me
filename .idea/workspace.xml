@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf044c20-4b99-4b49-bc06-53dd9da1674f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/styles/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/root/components/App/App.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tarot-card/components/TarotCard/TarotCard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tarot-spread/functions/spread-layout.functions.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/index.js" afterPath="$PROJECT_DIR$/src/assets/card-icons/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/major/16.svg" afterPath="$PROJECT_DIR$/src/assets/card-icons/major/16.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/major/20.svg" afterPath="$PROJECT_DIR$/src/assets/card-icons/major/20.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/major/8.svg" afterPath="$PROJECT_DIR$/src/assets/card-icons/major/8.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/major/index.js" afterPath="$PROJECT_DIR$/src/assets/card-icons/major/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/root/components/App/App.js" afterPath="$PROJECT_DIR$/src/root/components/App/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" afterPath="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/major/7.svg" afterPath="$PROJECT_DIR$/src/assets/card-icons/major/7.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.css" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadLayoutStrategy/SpreadLayoutStrategy.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadLayoutStrategy/SpreadLayoutStrategy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/store/spread.actions.js" afterPath="$PROJECT_DIR$/src/tarot-spread/store/spread.actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js" afterPath="$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,23 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spread.actions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-spread/store/spread.actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#12#86#0" expanded="true" />
-                <marker date="1501388570000" expanded="true" signature="329:925" ph="{...}" />
-                <marker date="1501388570000" expanded="true" signature="525:597" ph="{...}" />
-                <marker date="1501388570000" expanded="true" signature="661:722" ph="{...}" />
-                <marker date="1501388570000" expanded="true" signature="777:837" ph="{...}" />
-                <marker date="1501388570000" expanded="true" signature="872:923" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spread.functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tarot-spread/store/spread.functions.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,14 +46,27 @@
       <file leaf-file-name="DrawnTarotCard.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawnTarotCard.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawnTarotCard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -213,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" />
         <option value="$PROJECT_DIR$/src/root/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/assets/card-icons/major/index.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/tarot-card/styles/tarot-card.css" />
         <option value="$PROJECT_DIR$/src/tarot-card/components/TarotCardBack/TarotCardBack.js" />
         <option value="$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js" />
@@ -222,10 +193,11 @@
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadLayoutStrategy/SpreadLayoutStrategy.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.css" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -529,12 +501,12 @@
       <updated>1500696978865</updated>
       <workItem from="1500696980103" duration="56985000" />
       <workItem from="1501252762977" duration="258000" />
-      <workItem from="1501253075434" duration="40530000" />
+      <workItem from="1501253075434" duration="40846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97773000" />
+    <option name="totallyTimeSpent" value="98089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -900,17 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1008,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadLayoutStrategy/SpreadLayoutStrategy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1059,6 +1012,25 @@
           <folding>
             <element signature="e#12#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

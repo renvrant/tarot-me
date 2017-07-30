@@ -12,7 +12,7 @@ An app for drawing tarot cards. Learning project for React/Redux/Flow. WIP.
 - [Emperor](https://thenounproject.com/search/?q=throne&i=1110150)
 - [Hierophant](https://thenounproject.com/term/keys/18474/)
 - [Lovers](https://thenounproject.com/term/cupid/88181/)
-- [Chariot](https://thenounproject.com/term/wreath/76680/)
+- [Chariot](https://thenounproject.com/term/laurel-wreath/736637/)
 - [Strength](https://thenounproject.com/search/?q=lion&i=394525)
 - [Hermit](https://thenounproject.com/term/candle/902639/)
 - [Fortune](https://thenounproject.com/term/buddhism/200400/)

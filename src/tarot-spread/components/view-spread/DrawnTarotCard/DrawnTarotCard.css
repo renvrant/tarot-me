@@ -13,11 +13,11 @@
   backface-visibility: hidden;
 }
 
-.tc-face {
+.tc-drawn .tc-face {
   transform: rotateY( -180deg );
 }
 
-.tc-back {
+.tc-drawn .tc-back {
   transform: rotateY( 0deg );
 }
 
