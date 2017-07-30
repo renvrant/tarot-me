@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "prettier": "^1.5.3",
     "react-scripts": "1.0.10",
-    "prettier": "^1.5.3"
+    "tachyons": "^4.7.4"
   },
   "dependencies": {
     "flow-bin": "^0.51.0",

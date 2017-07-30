@@ -4,7 +4,6 @@ import React from 'react';
 import { SpreadLayouts } from '../../../types/spread.types';
 import type { TSpreadLayout } from '../../../types/spread.types';
 import LineSpread from '../LineSpread/LineSpread';
-import { ISpread } from '../../../types/spread.interfaces';
 import NoResults from '../../../../core/components/NoResults/NoResults';
 
 const getLayoutStrategies = (): { [key: TSpreadLayout]: () => any } => {
@@ -18,7 +17,7 @@ const getLayoutStrategies = (): { [key: TSpreadLayout]: () => any } => {
 const getSpreadLayoutComponent = (layout: TSpreadLayout) =>
   getLayoutStrategies()[layout] || NoResults;
 
-export const SpreadLayoutStrategy = (props: { spread: ISpread }) => {
+export const SpreadLayoutStrategy = (props: any) => {
   const { spread } = props;
   const LayoutComponent = getSpreadLayoutComponent(
     spread.spreadMetadata.layout

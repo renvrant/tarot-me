@@ -1,0 +1,101 @@
+.tc-drawn {
+  transform-style: preserve-3d;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.tc-drawn .tc-face,
+.tc-drawn .tc-back {
+  position: absolute;
+  top: 0;
+  transform-style: preserve-3d;
+  transition: all 0.4s;
+  backface-visibility: hidden;
+}
+
+.tc-face {
+  transform: rotateY( -180deg );
+}
+
+.tc-back {
+  transform: rotateY( 0deg );
+}
+
+.tc-drawn.flipped .tc-face {
+  transform: rotateY( 0deg );
+  animation: flip-front 0.4s;
+}
+
+.tc-drawn.flipped .tc-back {
+  transform: rotateY( 180deg );
+  animation: flip-back 0.4s;
+}
+
+@keyframes flip-front {
+  0% {
+    transform: scale(1) translateY(0) rotateY(-180deg);
+  }
+  50% {
+    transform: scale(1) translateY(-50px) rotateY(-90deg);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotateY(0deg);
+  }
+}
+
+@keyframes flip-back {
+  0% {
+    transform: scale(1) translateY(0) rotateY(0deg);
+  }
+  50% {
+    transform: scale(1) translateY(-50px) rotateY(90deg);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotateY(180deg);
+  }
+}
+
+
+/* Reversed... Isn't working yet */
+
+.reversed .tc-face {
+  transform: rotateX(0deg);
+}
+.reversed .tc-back {
+  transform: rotateY( -180deg );
+}
+
+.tc-drawn.reversed:hover .tc-face {
+  transform: rotateY( 180deg );
+  animation: flip-front-reversed 0.4s;
+}
+
+.tc-drawn.reversed:hover .tc-back {
+  transform: rotateY( 0deg );
+  animation: flip-back-reversed 0.4s;
+}
+
+
+@keyframes flip-front-reversed {
+  0% {
+    transform: scale(1) translateY(0) rotateY(-180deg);
+  }
+  50% {
+    transform: scale(1) translateY(50px) rotateY(-90deg);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotateY(0deg);
+  }
+}
+
+@keyframes flip-back-reversed {
+  0% {
+    transform: scale(1) translateY(0) rotateY(0deg);
+  }
+  50% {
+    transform: scale(1) translateY(50px) rotateY(90deg);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotateY(180deg);
+  }
+}

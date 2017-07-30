@@ -2,7 +2,21 @@
 
 import { SpreadActions } from './spread.actions';
 import { getSpreadInitialState } from './spread.functions';
-import { ISpread } from '../types/spread.interfaces';
+import { ISpread, ISpreadCard } from '../types/spread.interfaces';
+
+function getFlippedCard(
+  card: ISpreadCard,
+  spreadCards: Array<ISpreadCard>
+): Array<ISpreadCard> {
+  const newCards = [...spreadCards];
+  newCards[newCards.findIndex(currentCard => currentCard === card)] = {
+    ...card,
+    orientation: {
+      flipped: true
+    }
+  };
+  return newCards;
+}
 
 export const spreadReducer = (
   state: ISpread = getSpreadInitialState(),
@@ -21,6 +35,11 @@ export const spreadReducer = (
       };
     case SpreadActions.CLEAR:
       return getSpreadInitialState();
+    case SpreadActions.FLIP:
+      return {
+        ...state,
+        cards: getFlippedCard(action.payload.card, state.cards)
+      };
     default:
       return state;
   }

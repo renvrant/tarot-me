@@ -5,7 +5,7 @@ import major3 from './3.svg';
 import major4 from './4.svg';
 import major5 from './5.svg';
 import major6 from './6.svg';
-import major7 from './6.svg';
+import major7 from './7.svg';
 import major8 from './8.svg';
 import major9 from './9.svg';
 import major10 from './10.svg';
