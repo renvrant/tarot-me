@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf044c20-4b99-4b49-bc06-53dd9da1674f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/card-icons/major/17.svg" afterPath="$PROJECT_DIR$/src/assets/card-icons/major/17.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tarot-card/components/CardFlipWrapper/CardFlipWrapper.js" afterPath="$PROJECT_DIR$/src/tarot-card/components/TarotCardFlipWrapper/TarotCardFlipWrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" afterPath="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-card/components/CardPageContainer/CardPageContainer.js" afterPath="$PROJECT_DIR$/src/tarot-card/components/CardPageContainer/CardPageContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js" afterPath="$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadContainer/CreateSpreadContainer.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadContainer/CreateSpreadContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadPage/CreateSpreadPage.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadPage/CreateSpreadPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-deck/types/arcana.type.js" afterPath="$PROJECT_DIR$/src/tarot-deck/types/arcana.type.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js" afterPath="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js" afterPath="$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,35 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpreadPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js">
+      <file leaf-file-name="CardReadingLinks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/CardReadingLinks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding>
-                <element signature="e#12#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TarotCardFace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-              <folding>
-                <element signature="e#13#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TarotCardBack.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardBack/TarotCardBack.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#13#39#0" expanded="true" />
@@ -68,34 +38,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/root/components/App/App.js">
+      <file leaf-file-name="DrawnTarotCard.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="240">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawnTarotCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
-                <element signature="e#13#54#0" expanded="true" />
+                <element signature="e#12#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateSpreadContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadContainer/CreateSpreadContainer.js">
+      <file leaf-file-name="LineSpread.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="195">
+              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <folding>
+                <element signature="e#12#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardSpreadPosition.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardSpreadPosition/CardSpreadPosition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#12#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardSpreadPosition.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardSpreadPosition/CardSpreadPosition.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateSpreadPage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadPage/CreateSpreadPage.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="15">
+              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ata-tarot.functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/ata-tarot.functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#13#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn-tarot.functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/learn-tarot.functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#13#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,47 +133,11 @@
       <file leaf-file-name="CardPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#13#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardFlipWrapper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardFlipWrapper/CardFlipWrapper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardPageContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardPageContainer/CardPageContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpreadPageContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="e#12#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,17 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/appData/store/app-data.reducer.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/DrawnTarotCard/DrawnTarotCard.js" />
-        <option value="$PROJECT_DIR$/src/appData/store/app-data.actions.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/SpreadLayout/SpreadLayout.js" />
-        <option value="$PROJECT_DIR$/src/root/app.routes.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/SpreadPage/SpreadPage.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/containers/CreateSpreadContainer/CreateSpreadContainer.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/containers/SpreadPageContainer/SpreadPageContainer.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/CreateSpreadPage/CreateSpreadPage.js" />
-        <option value="$PROJECT_DIR$/src/tarot-deck/types/deck.type.js" />
-        <option value="$PROJECT_DIR$/src/tarot-card/types/tarot-card.interface.js" />
         <option value="$PROJECT_DIR$/src/appData/spreads/spreads.data.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/types/spread.types.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/types/spread.interfaces.js" />
@@ -204,17 +187,28 @@
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" />
-        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPage/SpreadPage.js" />
         <option value="$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js" />
-        <option value="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" />
         <option value="$PROJECT_DIR$/src/tarot-card/components/CardFlipWrapper/CardFlipWrapper.js" />
         <option value="$PROJECT_DIR$/src/tarot-card/components/CardPageContainer/CardPageContainer.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadContainer/CreateSpreadContainer.js" />
         <option value="$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadPage/CreateSpreadPage.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/TarotCardFlipWrapper/TarotCardFlipWrapper.js" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css" />
+        <option value="$PROJECT_DIR$/src/tarot-deck/types/arcana.type.js" />
+        <option value="$PROJECT_DIR$/src/tarot-deck/types/rank.type.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/ata-tarot.functions.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/learn-tarot.functions.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/learn-tarot.functions.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/index.js" />
+        <option value="$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/CardReadingLinks.js" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardPositionInfo/CardPositionInfo.js" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardSpreadPosition/CardSpreadPosition.css" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js" />
+        <option value="$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardSpreadPosition/CardSpreadPosition.js" />
       </list>
     </option>
   </component>
@@ -353,14 +347,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CardFlipWrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="CardPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -369,7 +355,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CardPageContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="CardReadingLinks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
@@ -392,7 +378,42 @@
               <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TarotCardFlipWrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot-card" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot-deck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot-deck" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
@@ -448,6 +469,15 @@
               <item name="tarot-spread" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="view-spread" type="462c0819:PsiDirectoryNode" />
+              <item name="CardSpreadPosition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot-spread" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="view-spread" type="462c0819:PsiDirectoryNode" />
               <item name="DrawnTarotCard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -458,33 +488,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="view-spread" type="462c0819:PsiDirectoryNode" />
               <item name="LineSpread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tarot-spread" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="view-spread" type="462c0819:PsiDirectoryNode" />
-              <item name="SpreadLayoutStrategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tarot-spread" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="view-spread" type="462c0819:PsiDirectoryNode" />
-              <item name="SpreadPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-tarot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tarot-spread" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="view-spread" type="462c0819:PsiDirectoryNode" />
-              <item name="SpreadPageContainer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-tarot" type="b2602c69:ProjectViewProjectNode" />
@@ -518,11 +521,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions" />
       <recent name="$PROJECT_DIR$/src/core" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/card-icons/major" />
       <recent name="$PROJECT_DIR$/src/assets/card-icons" />
-      <recent name="$PROJECT_DIR$/src/core/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -560,12 +563,12 @@
       <updated>1500696978865</updated>
       <workItem from="1500696980103" duration="56985000" />
       <workItem from="1501252762977" duration="258000" />
-      <workItem from="1501253075434" duration="43397000" />
+      <workItem from="1501253075434" duration="46480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100640000" />
+    <option name="totallyTimeSpent" value="103723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,93 +618,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tarot-deck/types/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appData/store/app-data.reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="e#12#64#0" expanded="false" />
-            <marker date="1501352435000" expanded="true" signature="1000:1037" ph="{...}" />
-            <marker date="1501352435000" expanded="true" signature="1000:1039" ph="{...}" />
-            <marker date="1501352435000" expanded="true" signature="1013:1033" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appData/store/app-data.functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <marker date="1501352435000" expanded="true" signature="187:189" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appData/store/app-data.interfaces.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1501352435000" expanded="true" signature="20:21" ph="..." />
-            <marker date="1501352435000" expanded="true" signature="357:359" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-card/types/tarot-card.interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1501352436000" expanded="true" signature="230:232" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-deck/types/arcana.type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-deck/types/arcana.interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1501352436000" expanded="true" signature="89:194" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/types/spread-metadata.interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/types/spread-card.interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarot-deck/types/deck.type.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -779,7 +695,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,7 +755,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -849,7 +765,7 @@
         <state relative-caret-position="345">
           <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,7 +826,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="e#12#86#0" expanded="true" />
+            <element signature="e#12#86#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -931,14 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarot-spread/types/spread.types.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -947,50 +855,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#12#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadLayoutStrategy/SpreadLayoutStrategy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
-            <element signature="e#13#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#12#38#0" expanded="true" />
+            <element signature="e#13#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1000,38 +870,9 @@
         <state relative-caret-position="15">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
-            <element signature="e#12#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#13#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#13#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardFlipWrapper/CardFlipWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#38#0" expanded="true" />
+            <element signature="e#12#38#0" expanded="false" />
+            <marker date="1501514146000" expanded="true" signature="399:541" ph="&lt;article/&gt;" />
+            <marker date="1501514146000" expanded="true" signature="413:463" ph="&lt;h2/&gt;" />
           </folding>
         </state>
       </provider>
@@ -1041,18 +882,9 @@
         <state relative-caret-position="105">
           <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardBack/TarotCardBack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#13#39#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1501514146000" expanded="true" signature="546:600" ph="{...}" />
+            <marker date="1501514146000" expanded="true" signature="689:783" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1062,7 +894,7 @@
         <state relative-caret-position="285">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
-            <element signature="e#13#54#0" expanded="true" />
+            <element signature="e#13#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,15 +903,190 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
+          <folding>
+            <marker date="1501514146000" expanded="true" signature="750:801" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/create-spread/CreateSpreadPage/CreateSpreadPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="300">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/SpreadPageContainer/SpreadPageContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#12#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardFlipWrapper/TarotCardFlipWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardBack/TarotCardBack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#13#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/TarotCardFace/TarotCardFace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#13#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/store/spread.reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-deck/types/arcana.type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-deck/types/rank.type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/types/tarot-card.interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <marker date="1501352436000" expanded="true" signature="230:232" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardPage/CardPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#13#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/ata-tarot.functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#13#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/functions/learn-tarot.functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#13#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-card/components/CardReadingLinks/CardReadingLinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#13#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#12#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/DrawnTarotCard/DrawnTarotCard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/LineSpread/LineSpread.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#12#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardSpreadPosition/CardSpreadPosition.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarot-spread/components/view-spread/CardSpreadPosition/CardSpreadPosition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

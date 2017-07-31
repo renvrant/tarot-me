@@ -18,7 +18,7 @@ const CardFlipWrapper = ({ drawnCard, flipCard, children }: PropTypes) =>
         {children}
       </div>
     : <Link to={getCardPagePath(drawnCard.card)}>
-        {' '}{children}
+        {children}
       </Link>;
 
 export default CardFlipWrapper;

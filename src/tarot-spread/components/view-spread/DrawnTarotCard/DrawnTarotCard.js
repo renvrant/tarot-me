@@ -5,7 +5,7 @@ import CardBack from '../../../../tarot-card/components/TarotCardBack/TarotCardB
 import { ISpreadCard } from '../../../types/spread.interfaces';
 import './DrawnTarotCard.css';
 import { IPayloadAction } from '../../../../root/types/create-action.interface';
-import CardFlipWrapper from '../../../../tarot-card/components/CardFlipWrapper/CardFlipWrapper';
+import CardFlipWrapper from '../../../../tarot-card/components/TarotCardFlipWrapper/TarotCardFlipWrapper';
 
 type PropTypes = {
   drawnCard: ISpreadCard,

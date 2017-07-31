@@ -4,6 +4,7 @@ import React from 'react';
 import { ITarotCard } from '../../types/tarot-card.interface';
 import { IArcana } from '../../../tarot-deck/types/arcana.interface';
 import TarotCardFace from '../TarotCardFace/TarotCardFace';
+import CardReadingLinks from '../CardReadingLinks/CardReadingLinks';
 
 type PropTypes = { card: ITarotCard, arcana: IArcana };
 
@@ -20,6 +21,7 @@ const CardPage = ({ card, arcana }: PropTypes) => {
         {card.description}
       </p>
       <TarotCardFace card={card} />
+      <CardReadingLinks card={card} />
     </article>
   );
 };
