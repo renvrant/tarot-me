@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "flow-bin": "^0.51.0",
+    "gh-pages": "^1.0.0",
     "map.prototype.tojson": "^0.1.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -27,6 +28,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "flow": "flow",
-    "prettier": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx}'"
-  }
+    "prettier": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://renvrant.github.io/tarot-me"
 }

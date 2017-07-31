@@ -9,10 +9,11 @@ import SpreadPageContainer from '../tarot-spread/components/view-spread/SpreadPa
 import CreateSpreadContainer from '../tarot-spread/components/create-spread/CreateSpreadContainer/CreateSpreadContainer';
 
 export const routes: { [key: string]: string } = {
-  home: '/',
+  home: '/create',
   deckPage: '/cards',
   cardPage: '/cards/:arcana/:rank',
-  spreadPage: '/spread'
+  spreadPage: '/spread',
+  makeSpreadPage: '/create',
 };
 
 export const routeConfig = (
@@ -21,6 +22,7 @@ export const routeConfig = (
     <Route exact path={routes.deckPage} component={DeckPageContainer} />
     <Route path={routes.cardPage} component={CardPageContainer} />
     <Route path={routes.spreadPage} component={SpreadPageContainer} />
+    <Route component={SpreadPageContainer} />
   </Switch>
 );
 
