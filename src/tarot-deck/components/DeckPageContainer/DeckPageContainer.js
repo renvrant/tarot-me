@@ -1,15 +1,17 @@
 /* @flow */
 import React from 'react';
 import { connect } from 'react-redux';
-import type { TDeck } from '../../types/deck.type';
 import DeckList from '../DeckList/DeckList';
-import { deckSelector } from '../../store/deck.selectors';
+import { deckByArcanaSelector } from '../../store/deck.selectors';
+import { IDeckByArcana } from '../../types/deck-by-arcana.interface';
 
-const DeckPageContainer = ({ deck }: { deck: TDeck }) =>
-  <DeckList deck={deck} />;
+type PropTypes = { deckByArcana: Array<IDeckByArcana> };
+
+const DeckPageContainer = ({ deckByArcana }: PropTypes) =>
+  <DeckList deckByArcana={deckByArcana} />;
 
 const mapStateToProps = state => ({
-  deck: deckSelector(state)
+  deckByArcana: deckByArcanaSelector(state)
 });
 
 export default connect(mapStateToProps)(DeckPageContainer);

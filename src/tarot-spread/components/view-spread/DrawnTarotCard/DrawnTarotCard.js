@@ -14,7 +14,7 @@ type PropTypes = {
 
 const DrawnTarotCard = ({ drawnCard, flipCard }: PropTypes) =>
   <div
-    className={`tc-drawn tc-hw ${drawnCard.orientation.flipped
+    className={`tc-drawn tc-hw grow ${drawnCard.orientation.flipped
       ? 'flipped'
       : ''}`}
   >

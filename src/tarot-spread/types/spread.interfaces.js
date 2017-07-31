@@ -13,6 +13,7 @@ export interface ISpreadMetadata {
   +title: string,
   +totalCards: number,
   +layout: TSpreadLayout,
+  +description: string,
   +positions: Array<ISpreadPosition> // This could be a map...
 }
 

@@ -1,6 +1,7 @@
 .tc-hw {
   width: 20rem;
   height: 26rem; /* width * 1.3 */
+  min-width: 20rem;
 }
 
 .tc-bdr-width {

@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <main className="system-sans-serif lh-copy f4">
+        <main className="system-sans-serif lh-copy f4 h-100 pt5">
           <AppNavigation />
           {routeConfig}
         </main>

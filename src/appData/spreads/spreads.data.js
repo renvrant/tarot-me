@@ -44,7 +44,7 @@ export const SPREADS: Array<ISpreadMetadata> = [
   {
     type: SpreadTypes.thinkFeelDo,
     title: 'Think, Feel, Do',
-    description: 'For evaluating a situation',
+    description: 'For reflecting your thoughts',
     totalCards: 3,
     layout: SpreadLayouts.line,
     positions: [

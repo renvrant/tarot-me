@@ -6,7 +6,7 @@ export const ARCANA: Array<IArcana> = [
     type: 'major',
     title: 'Major Arcana',
     minor: false,
-    element: 'spirit',
+    element: 'Spirit',
     description: 'Concerned with the personal journey to wisdom and fulfilment'
   },
   {

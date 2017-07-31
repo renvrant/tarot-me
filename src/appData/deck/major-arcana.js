@@ -52,8 +52,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'V',
     name: 'The Hierophant',
     arcana: 'major',
-    description:
-      'The hierophant leads with the conservative wisdom of tradition.'
+    description: 'The hierophant offers the conservative wisdom of tradition.'
   },
   {
     id: 6,
@@ -165,7 +164,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XIX',
     name: 'The Sun',
     arcana: 'major',
-    description: 'The sun rises with the joy and radiance of success.'
+    description: 'The sun rises on success, joy and confidence.'
   },
   {
     id: 20,
@@ -173,7 +172,7 @@ export const MAJOR_ARCANA: Array<ITarotCard> = [
     numeral: 'XX',
     name: 'Judgement',
     arcana: 'major',
-    description: 'Judgement calls to the spirit to be measured and reborn.'
+    description: 'Judgement calls the spirit to be measured and reborn.'
   },
   {
     id: 21,
