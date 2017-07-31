@@ -1,6 +1,6 @@
 ## Tarot Me!
-An app for drawing tarot cards. Learning project for React/Redux/Flow. WIP.
-
+An app for drawing tarot cards. Learning project for React/Redux/Flow.
+http://renvrant.com/tarot-me/
 
 ### Icon Credits
 
