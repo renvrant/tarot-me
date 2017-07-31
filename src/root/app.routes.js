@@ -22,7 +22,8 @@ export const routeConfig = (
     <Route exact path={routes.deckPage} component={DeckPageContainer} />
     <Route path={routes.cardPage} component={CardPageContainer} />
     <Route path={routes.spreadPage} component={SpreadPageContainer} />
-    <Route component={SpreadPageContainer} />
+    <Route path={routes.makeSpreadPage} component={CreateSpreadContainer} />
+    <Route component={CreateSpreadContainer} />
   </Switch>
 );
 
