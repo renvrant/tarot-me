@@ -15,6 +15,7 @@
 
 .tc-drawn .tc-face {
   transform: rotateY( -180deg );
+  cursor: pointer;
 }
 
 .tc-drawn .tc-back {

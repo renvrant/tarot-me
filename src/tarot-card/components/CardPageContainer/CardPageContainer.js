@@ -11,13 +11,12 @@ import { IAppState } from '../../../root/types/app-state.interface';
 import CardPage from '../CardPage/CardPage';
 import { IArcana } from '../../../tarot-deck/types/arcana.interface';
 
-const CardPageContainer = ({
-  card,
-  arcana
-}: {
+type PropTypes = {
   card: ITarotCard,
   arcana: IArcana
-}) => {
+};
+
+const CardPageContainer = ({ card, arcana }: PropTypes) => {
   return <CardPage card={card} arcana={arcana} />;
 };
 

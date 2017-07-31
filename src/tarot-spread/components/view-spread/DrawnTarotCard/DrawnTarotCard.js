@@ -5,24 +5,23 @@ import CardBack from '../../../../tarot-card/components/TarotCardBack/TarotCardB
 import { ISpreadCard } from '../../../types/spread.interfaces';
 import './DrawnTarotCard.css';
 import { IPayloadAction } from '../../../../root/types/create-action.interface';
+import CardFlipWrapper from '../../../../tarot-card/components/CardFlipWrapper/CardFlipWrapper';
 
-const DrawnTarotCard = ({
-  drawnCard,
-  flipCard
-}: {
+type PropTypes = {
   drawnCard: ISpreadCard,
   flipCard: ISpreadCard => IPayloadAction
-}) => {
-  let { flipped } = drawnCard.orientation;
-  return (
-    <div
-      className={`tc-drawn tc-hw ${flipped ? 'flipped' : ''}`}
-      onClick={() => flipCard(drawnCard)}
-    >
+};
+
+const DrawnTarotCard = ({ drawnCard, flipCard }: PropTypes) =>
+  <div
+    className={`tc-drawn tc-hw ${drawnCard.orientation.flipped
+      ? 'flipped'
+      : ''}`}
+  >
+    <CardFlipWrapper drawnCard={drawnCard} flipCard={flipCard}>
       <CardFace card={drawnCard.card} />
       <CardBack />
-    </div>
-  );
-};
+    </CardFlipWrapper>
+  </div>;
 
 export default DrawnTarotCard;

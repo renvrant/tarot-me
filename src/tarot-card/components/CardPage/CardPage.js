@@ -5,7 +5,9 @@ import { ITarotCard } from '../../types/tarot-card.interface';
 import { IArcana } from '../../../tarot-deck/types/arcana.interface';
 import TarotCardFace from '../TarotCardFace/TarotCardFace';
 
-const CardPage = ({ card, arcana }: { card: ITarotCard, arcana: IArcana }) => {
+type PropTypes = { card: ITarotCard, arcana: IArcana };
+
+const CardPage = ({ card, arcana }: PropTypes) => {
   return (
     <article>
       <h2>

@@ -22,7 +22,7 @@ An app for drawing tarot cards. Learning project for React/Redux/Flow. WIP.
 - [Temperance](https://thenounproject.com/term/venn-diagram/854740/)
 - [Devil](https://thenounproject.com/term/link/15066/)
 - [Tower](https://thenounproject.com/search/?q=lightning%20tower&i=1041190)
-- [Star](https://thenounproject.com/term/star/158844/)
+- [Star](https://thenounproject.com/search/?q=twinkle%20star&i=684741)
 - [Moon](https://thenounproject.com/search/?q=moon%20water&i=73074)
 - [Sun](https://thenounproject.com/term/sun/919940/)
 - [Judgement](https://thenounproject.com/term/horn/95598/)

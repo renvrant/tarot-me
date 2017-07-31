@@ -5,14 +5,14 @@ import SpreadPage from '../SpreadPage/SpreadPage';
 import { spreadSelector } from '../../../store/spread.selectors';
 import { ISpread } from '../../../types/spread.interfaces';
 import { SpreadActions } from '../../../store/spread.actions';
+import { IPayloadAction } from '../../../../root/types/create-action.interface';
 
-const SpreadPageContainer = ({
-  spread,
-  flipCard
-}: {
+type PropTypes = {
   spread: ISpread,
-  flipCard: () => any
-}) => <SpreadPage spread={spread} flipCard={flipCard} />;
+  flipCard: () => IPayloadAction
+};
+const SpreadPageContainer = ({ spread, flipCard }: PropTypes) =>
+  <SpreadPage spread={spread} flipCard={flipCard} />;
 
 const mapStateToProps = state => ({
   spread: spreadSelector(state)

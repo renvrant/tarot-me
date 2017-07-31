@@ -5,14 +5,15 @@ import { ISpreadMetadata } from '../../../types/spread.interfaces';
 import { spreadMetadataSelector } from '../../../store/spread.selectors';
 import { SpreadActions } from '../../../store/spread.actions';
 import CreateSpreadPage from '../CreateSpreadPage/CreateSpreadPage';
+import { IPayloadAction } from '../../../../root/types/create-action.interface';
 
-const CreateSpreadContainer = ({
-  spreadMetadata,
-  createSpread
-}: {
+type PropTypes = {
   spreadMetadata: Array<ISpreadMetadata>,
-  createSpread: (spread: ISpreadMetadata) => any
-}) => <CreateSpreadPage spreads={spreadMetadata} createSpread={createSpread} />;
+  createSpread: (spread: ISpreadMetadata) => IPayloadAction
+};
+
+const CreateSpreadContainer = ({ spreadMetadata, createSpread }: PropTypes) =>
+  <CreateSpreadPage spreads={spreadMetadata} createSpread={createSpread} />;
 
 const mapStateToProps = state => ({
   spreadMetadata: spreadMetadataSelector(state)

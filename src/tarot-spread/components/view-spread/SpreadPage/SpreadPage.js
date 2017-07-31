@@ -2,14 +2,14 @@
 import React from 'react';
 import { ISpread } from '../../../types/spread.interfaces';
 import { SpreadLayoutStrategy } from '../SpreadLayoutStrategy/SpreadLayoutStrategy';
+import { IPayloadAction } from '../../../../root/types/create-action.interface';
 
-const SpreadPage = ({
-  spread,
-  flipCard
-}: {
+type PropTypes = {
   spread: ISpread,
-  flipCard: () => any
-}) =>
+  flipCard: () => IPayloadAction
+};
+
+const SpreadPage = ({ spread, flipCard }: PropTypes) =>
   <article>
     <h2>
       {spread.spreadMetadata.title}

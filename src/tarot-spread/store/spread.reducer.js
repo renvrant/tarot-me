@@ -9,12 +9,15 @@ function getFlippedCard(
   spreadCards: Array<ISpreadCard>
 ): Array<ISpreadCard> {
   const newCards = [...spreadCards];
-  newCards[newCards.findIndex(currentCard => currentCard === card)] = {
-    ...card,
-    orientation: {
-      flipped: true
-    }
-  };
+  const index = newCards.findIndex(currentCard => currentCard === card);
+  if (newCards[index]) {
+    newCards[index] = {
+      ...card,
+      orientation: {
+        flipped: true
+      }
+    };
+  }
   return newCards;
 }
 
